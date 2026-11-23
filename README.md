@@ -7,7 +7,7 @@ Repository modello preconfigurato con ambiente di sviluppo minimale (senza autoc
 ## 1. Creare il proprio repository dal template
 
 1. Clicca sul pulsante verde **Use this template** in alto a destra e seleziona **Create a new repository**.
-2. Assegna un nome al repository seguendo il formato richiesto (es. `es01-cognome-nome`), imposta la visibilità su **Private** e clicca su **Create repository**.
+2. Assegna un nome al repository seguendo il formato richiesto (es. `SISes01-cognome-nome`), imposta la visibilità su **Private** e clicca su **Create repository**.
 
 ## 2. Avviare l'ambiente di lavoro (GitHub Codespaces)
 
