@@ -111,12 +111,17 @@ Poiché il tuo repository è impostato su **Private**, il docente non potrà ved
 4. Fai clic su **Add people**.
 5. Inserisci il nome utente GitHub del docente e conferma l'invio dell'invito.
 
-### 3. Consegna su Google Classroom
+### 3. Consegna su Google Classroom (File `.zip` e Link al Repository)
 
-1. Copia l'indirizzo URL della pagina principale del tuo repository.
-2. Apri la scheda del compito su **Google Classroom**.
-3. Fai clic su **Aggiungi o crea** -> **Link**.
-4. Incolla l'URL del tuo repository e fai clic su **Contrassegna come inviato** o **Consegna**.
+Prima di procedere, verifica che le modifiche siano effettivamente visibili sulla pagina web del tuo repository GitHub (segno che il *Sync* è andato a buon fine). Per completare la consegna dovrai allegare **sia l'archivio `.zip` del progetto sia il link al repository**:
+
+1. Nella pagina principale del tuo repository su GitHub, copia l'indirizzo URL dalla barra degli indirizzi del browser.
+2. Nella stessa pagina, fai clic sul pulsante verde **<> Code** in alto a destra e, nella scheda **Local**, seleziona **Download ZIP** per scaricare sul tuo computer l'archivio compresso del progetto.
+3. Nella cartella *Download* del tuo computer, **rinomina il file `.zip`** aggiungendo il tuo cognome e nome come prefisso nel formato `cognome_nome_` (ad esempio: `rossi_mario_es01-calcolatrice.zip`).
+4. Apri la scheda del compito su **Google Classroom**.
+5. Allega il file compresso: fai clic su **Aggiungi o crea** -> **File** e carica il file `.zip` appena rinominato.
+6. Allega il collegamento al repository: fai clic nuovamente su **Aggiungi o crea** -> **Link** e incolla l'URL del tuo repository GitHub.
+7. Verifica che entrambi gli allegati (il file `.zip` e il link) siano presenti nel riquadro *Il tuo lavoro*, quindi fai clic su **Consegna** e conferma l'invio.
 
 ---
 
