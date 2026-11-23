@@ -17,7 +17,7 @@ Repository modello preconfigurato con ambiente di sviluppo minimale (senza autoc
 
 ## 3. Svolgere ed eseguire l'esercizio
 
-1. Apri il file `main.py` dalla barra laterale sinistra.
+1. Apri il file `app.py` dalla barra laterale sinistra.
 2. Aggiorna i campi **Autore** e **Data** nell'intestazione in alto.
 3. Scrivi il codice richiesto all'interno della funzione `main()`.
 4. Per eseguire il programma, clicca sull'icona **Play (▶)** in alto a destra oppure digita nel terminale:
