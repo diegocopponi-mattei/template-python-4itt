@@ -12,5 +12,6 @@
         "ms-python.python"
       ]
     }
-  }
+  },
+  "postCreateCommand": "code --uninstall-extension ms-python.vscode-pylance || true"
 }
