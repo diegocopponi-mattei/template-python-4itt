@@ -1,70 +1,16 @@
 {
-  "name": "Python Didattica Minimale",
-  "image": "mcr.microsoft.com/devcontainers/python:1-3.12-bookworm",
+  "name": "Python 3 Lab",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "ghcr.io/devcontainers/features/python:1": {
+      "version": "3.12"
+    }
+  },
   "customizations": {
     "vscode": {
       "extensions": [
         "ms-python.python"
-      ],
-      "settings": {
-        // --- BLOCCO IA E CHAT ---
-        "chat.disableAIFeatures": true,
-        "chat.commandCenter.enabled": false,
-        "workbench.secondarySideBar.defaultVisibility": "hidden",
-
-        // --- PYTHON MINIMALE ---
-        "python.languageServer": "None",
-        "python.terminal.executeInFileDir": true,
-        "editor.quickSuggestions": {
-          "other": "off",
-          "comments": "off",
-          "strings": "off"
-        },
-        "editor.suggestOnTriggerCharacters": false,
-        "editor.wordBasedSuggestions": "off",
-        "editor.parameterHints.enabled": false,
-        "editor.hover.enabled": false,
-        "editor.inlineSuggest.enabled": false,
-        "editor.acceptSuggestionOnEnter": "off",
-        "editor.tabCompletion": "off",
-        "editor.lightbulb.enabled": "off",
-
-        // --- INTERFACCIA PULITA ---
-        "workbench.startupEditor": "none",
-        "workbench.editor.empty.hint": "hidden",
-        "window.commandCenter": false,
-        "editor.minimap.enabled": false,
-        "breadcrumbs.enabled": false,
-        "workbench.layoutControl.enabled": false,
-        "workbench.activityBar.hiddenItems": {
-          "workbench.view.extension.chat": true,
-          "workbench.view.extensions": true,
-          "accounts": true
-        },
-
-        // --- PALETTA COLORI SCUOLA ---
-        "workbench.colorCustomizations": {
-          "titleBar.activeBackground": "#0A60A8",
-          "titleBar.activeForeground": "#FFFFFF",
-          "titleBar.inactiveBackground": "#0A60A8",
-          "titleBar.inactiveForeground": "#D0E2F0",
-          "activityBar.background": "#0A60A8",
-          "activityBar.foreground": "#FFFFFF",
-          "activityBar.inactiveForeground": "#B2D3EC",
-          "activityBarBadge.background": "#243064",
-          "activityBarBadge.foreground": "#FFFFFF",
-          "activityBar.hoverBackground": "#08508C",
-          "activityBar.activeBackground": "#07477D",
-          "statusBar.background": "#0A60A8",
-          "statusBar.foreground": "#FFFFFF",
-          "statusBar.noFolderBackground": "#07477D",
-          "selection.background": "#07477D",
-          "focusBorder": "#07477D",
-          "list.activeSelectionBackground": "#07477D",
-          "list.activeSelectionForeground": "#FFFFFF",
-          "list.hoverBackground": "#08508C"
-        }
-      }
+      ]
     }
   }
 }

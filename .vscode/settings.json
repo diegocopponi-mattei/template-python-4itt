@@ -1,40 +1,54 @@
 {
-  // --- BLOCCO IA E CHAT ---
-  "chat.disableAIFeatures": true,
-  "chat.commandCenter.enabled": false,
-  "workbench.secondarySideBar.defaultVisibility": "hidden",
-
-  // --- PYTHON MINIMALE ---
+  // Configurazione Python minimale (senza Language Server avanzato)
   "python.languageServer": "None",
   "python.terminal.executeInFileDir": true,
+
+  // Riduzione autocompletamento e segnalazione errori in tempo reale
   "editor.quickSuggestions": {
     "other": "off",
     "comments": "off",
     "strings": "off"
   },
   "editor.suggestOnTriggerCharacters": false,
-  "editor.wordBasedSuggestions": "off",
+  //"editor.wordBasedSuggestions": "off",
   "editor.parameterHints.enabled": false,
-  "editor.hover.enabled": false,
   "editor.inlineSuggest.enabled": false,
-  "editor.acceptSuggestionOnEnter": "off",
-  "editor.tabCompletion": "off",
-  "editor.lightbulb.enabled": "off",
 
-  // --- INTERFACCIA PULITA ---
+  // Interfaccia pulita e avvio rapido
   "workbench.startupEditor": "none",
   "workbench.editor.empty.hint": "hidden",
+  "workbench.sideBar.location": "left",
+  "workbench.secondarySideBar.show": false,
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
+  "workbench.panel.defaultLocation": "bottom",
+  "workbench.statusBar.visible": true,
   "window.commandCenter": false,
-  "editor.minimap.enabled": false,
-  "breadcrumbs.enabled": false,
-  "workbench.layoutControl.enabled": false,
-  "workbench.activityBar.hiddenItems": {
-    "workbench.view.extension.chat": true,
-    "workbench.view.extensions": true,
-    "accounts": true
-  },
+  "telemetry.telemetryLevel": "off",
 
-  // --- PALETTA COLORI SCUOLA ---
+  // Disattivazione completa GitHub Copilot e funzioni IA
+  "chat.disableAIFeatures": true,
+  "chat.enabled": false,
+  "chat.commandCenter.enabled": false,
+  "chat.titleBar.signIn.enabled": false,
+  "chat.titleBar.openInAgentsWindow.enabled": false,
+  "inlineChat.showHoldToSpeak": false,
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "python": false
+  },
+  "github.copilot.chat.welcomeMessage": "never",
+  "github.copilot.editor.enableAutoCompletions": false,
+  "github.copilot.editor.enableCodeActions": false,
+  "workbench.activityBar.hiddenItems": {
+    "workbench.view.extension.chat": true
+  },
+  "extensions.ignoreRecommendations": true,
+
+  // Paletta colori personalizzata scuola
+  "workbench.colorTheme": "Visual Studio Dark",
   "workbench.colorCustomizations": {
     "titleBar.activeBackground": "#0A60A8",
     "titleBar.activeForeground": "#FFFFFF",
